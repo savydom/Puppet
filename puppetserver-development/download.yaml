@@ -1,0 +1,106 @@
+resources:
+  - url: https://cbs.centos.org/kojifiles/packages/dumb-init/1.2.2/6.el8/x86_64/dumb-init-1.2.2-6.el8.x86_64.rpm
+    filename: "dumb-init-1.2.2-6.el8.x86_64.rpm"
+    validation:
+      type: sha512
+      value: bcfabdb039ce06a49d39d4bcc1d70fa38ee56ed50edc06019648a14ec898ad5afa1ec30dbff2da166c8f5557316b2b3659523787d34cb81223cf3a373242fa3f
+  - url: http://yum.puppetlabs.com/puppet6/el/8/x86_64/puppetserver-6.13.0-1.el8.noarch.rpm
+    filename: "puppetserver-6.13.0-1.el8.noarch.rpm"
+    validation:
+      type: sha512
+      value: c5b1b4f986c6134cbb138037aefeb0399c92a7ff897c729e4c43863894cdefb808449d7c23e6da6273ca305d9821d8d85577f8ea8fbdbfa237ab45f42cac01cb
+  - url: http://yum.puppetlabs.com/puppet6/el/8/x86_64/puppetdb-6.12.0-1.el8.noarch.rpm
+    filename: "puppetdb-6.12.0-1.el8.noarch.rpm"
+    validation:
+      type: sha512
+      value: 07e13e28c72af46b063ae2bf9de7fc39a6fb6d878d54e44b179e0038e08e07c813baca4d19869cc6420b3b458ff913f20ad58de900736e6a4e160fc1de6ecf04
+  - url: https://yum.puppet.com/puppet6/el/8/x86_64/puppet-agent-6.18.0-1.el8.x86_64.rpm
+    filename: "puppet-agent-6.18.0-1.el8.x86_64.rpm"
+    validation:
+      type: sha512
+      value: 6a9644ccd2937d8f6ef4319af8f11ecd270aa1770b55fe2be48b8666002fc58a24b2f8e6793600c21866dd3bdc7f1d8cb248f8860c11fd2fb7b0dc962f9ee88a
+  - url: https://yum.puppet.com/puppet6/el/8/x86_64/puppetdb-termini-6.12.0-1.el8.noarch.rpm
+    filename: "puppetdb-termini-6.12.0-1.el8.noarch.rpm"
+    validation:
+      type: sha512
+      value: 3e541326cf4c2de0205883313df8f3748b935c859faa9fa01e72db7d764b1dbfea558b9a0e347e1ef1fe09627b9b6d0131f61e5cdcc49db9cc0bccb38db5a0a7
+  - url: https://rubygems.org/downloads/colored2-3.1.2.gem
+    filename: colored2-3.1.2.gem
+    validation:
+      type: sha512
+      value: 20a3d610e7ff4097129eebf8d5f6cd5618cd5763dc14ad97c2570047c4f75ff371d3bea1b528f8c1b806b102e13834fd0092f9ae50590f11e70157e4584b915b
+  - url: https://rubygems.org/downloads/cri-2.15.10.gem
+    filename: cri-2.15.10.gem
+    validation:
+      type: sha512
+      value: 577ee6ba07f08d46e67420fb2e579647857207a2d88f1782545b28e6f26cd6b93d554c904e00af38d7f87eb0fd476c66552ec6b1469fa268faad1ff5d1ab8f15
+  - url: https://rubygems.org/downloads/faraday-0.17.3.gem
+    filename: faraday-0.17.3.gem
+    validation:
+      type: sha512
+      value: 5e950a01181692224767b598924fd3892696f7d56688e33281b031af7b047ca3e7ccdedbd486f82fd1fed6779b24517523d3177407435aa50cccb9cb95b43143
+  - url: https://rubygems.org/downloads/faraday_middleware-0.14.0.gem
+    filename: faraday_middleware-0.14.0.gem
+    validation:
+      type: sha512
+      value: 8b361b04a9adfee2cd2ce3cfa07fba3f5fb8f4e9b77778023e536e4fe0078e5d56627d2c86a4a4794c833544bbb2d1d67f32c2e016b306296a05b0e863eecfe6
+  - url: https://rubygems.org/downloads/fast_gettext-1.1.2.gem
+    filename: fast_gettext-1.1.2.gem
+    validation:
+      type: sha512
+      value: 7b83e9ecac0538b9ccc0134cda863f9c8a048e97809dedec24ee53b38fd6011b7aa06503d155594af954f4a009fa61f9cc9be156914c60791350b61d409fbbf2
+  - url: https://rubygems.org/downloads/gettext-3.2.9.gem
+    filename: gettext-3.2.9.gem
+    validation:
+      type: sha512
+      value: 21496c38cfc16a2b280f30bb94ff4560007eaa7f02c2341cb26aca2969a663c0863cdb650b4eadfd262d8585111dfb572e2ebc66a7a879045de50bf9da80a501
+  - url: https://rubygems.org/downloads/gettext-setup-0.34.gem
+    filename: gettext-setup-0.34.gem
+    validation:
+      type: sha512
+      value: 54b49f471f4d513f689680e6e5f418440727ac411b0b702249f2551e4a786bd01571cf1098cc2de55b5a5028c5fcc576ef5ced5359b87fa1affda400bf760de8
+  - url: https://rubygems.org/downloads/locale-2.1.3.gem
+    filename: locale-2.1.3.gem
+    validation:
+      type: sha512
+      value: 09e305e4aa3359eebe87ceef1c4cdd8ad87c57d08daafb3c0bcdc31c05a82784ae0e2b2e5113dea5fbd22b641e707961d880f4274f36454ec7b2927ba396f986
+  - url: https://rubygems.org/downloads/log4r-1.1.10.gem
+    filename: log4r-1.1.10.gem
+    validation:
+      type: sha512
+      value: a3a9e6c9ef5b388106afc4d402455ec480729cb58054794e6ff6c963b4d819776bf5b57ef5ab7499ddc9a6b3c10f299a133f3f5986d94ee0a438b64ede5bc143
+  - url: https://rubygems.org/downloads/minitar-0.9.gem
+    filename: minitar-0.9.gem
+    validation:
+      type: sha512
+      value: de9d75a2839d7c1bbcfe23eec3d77d2e9fd233b4469d70a9d037f3bca3565102e6978286428e0bcde9748ca635915b73ecaa11356e1d45ccc8521fc663e4925e
+  - url: https://rubygems.org/downloads/multi_json-1.15.0.gem
+    filename: multi_json-1.15.0.gem
+    validation:
+      type: sha512
+      value: 5021b66bd607bde8679899ff48fbf596cdf6a4f6c026472b20f25bd1933d105bef597c143ab529804d7b5a4a244476be24555f13a7fbe9fef30bbe1fb92978eb
+  - url: https://rubygems.org/downloads/multipart-post-2.1.1.gem
+    filename: multipart-post-2.1.1.gem
+    validation:
+      type: sha512
+      value: afa16717ee136f0bbbc20fe243252831604740bb61fa7288a2437a4a67638f660a4bd491b5326b034173e9e8352f2659f27dc8aaa761721f7111b7e9e704582f
+  - url: https://rubygems.org/downloads/puppet_forge-2.3.4.gem
+    filename: puppet_forge-2.3.4.gem
+    validation:
+      type: sha512
+      value: f903f3ecbfdfe80b4c9d769ba1f622bf64cd723fd9165d1e3ed27296eb0e2e67f827fbc5faf460391e462cfd1cc652e573093dae29622726b3e5a37e01cf61ec
+  - url: https://rubygems.org/downloads/r10k-3.6.0.gem
+    filename: r10k-3.6.0.gem
+    validation:
+      type: sha512
+      value: 3b495bf951fd5040378769e78a88c7b1fee33d8f2bb80691666425770707d3e23bc58a35c76a7bc2af1a86ed4ce63578e84d125f77d418fdf1e414ab79975bcb
+  - url: https://rubygems.org/downloads/semantic_puppet-1.0.2.gem
+    filename: semantic_puppet-1.0.2.gem
+    validation:
+      type: sha512
+      value: b059d8c7b13ae96dfe012318e7c6ee483cc09986d5d065c8422167a27a14d8e99433229c90388a7ff9ee425a0f5b6a6a6d5bc55f8b81901490afd8039ea86480
+  - url: https://rubygems.org/downloads/text-1.3.1.gem
+    filename: text-1.3.1.gem
+    validation:
+      type: sha512
+      value: 0380fc77e2f0d427afd9015ed904947311139e52adf3d49b748d0e6ee32c579073ec979f0cdbc117b53e3d841f25ce9f271637dd7edb5f6e124e369cca788eb8

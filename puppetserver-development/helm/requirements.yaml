@@ -1,0 +1,6 @@
+dependencies:
+
+  - name: postgresql96
+    version: "latest"
+    repository: https://registry1.dsop.io/ironbank/opensource/postgres/postgresql96
+    condition: postgresql.enabled
